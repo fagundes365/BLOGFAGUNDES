@@ -1,0 +1,45 @@
+.body {
+    background: linear-gradient(135deg, #B2F7EF, #007F5F);  
+}
+.foto{
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+    border: 2px solid red;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 700px;
+    margin-bottom: -200px;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.box {
+    display: flex;
+    flex-direction:column;
+    align-items: end;
+    justify-content: flex-end;
+    text-align: end;
+    padding: 5px;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.img img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
